@@ -18,6 +18,3 @@ st.text('手法による精度の違いなど')
 
 
 
-#エラーメッセージ表示
-if len(usecols) == 0 or len(names) == 0:
-    st.error('解析対象の列が指定されていません。')
